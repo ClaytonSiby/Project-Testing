@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(images/page-bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+   
+}
+
+.container{
+    position: relative;
+    top: 5vh;
+    background-color: rgba(48, 212, 83, 0.4);
+    padding: 5%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    height: 10%;
+    padding: 3px 15px;
+    background: #fff;
+}

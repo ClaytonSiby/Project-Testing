@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Math-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+          
+        <h1 class="text-center">Simple Calculator</h1>
+         <br>
+        <form action="">
+            <div class="form-group">
+                <label for="value-1">value1:</label>
+                <input type="text" class="form-control" id="value1">
+            </div>
+            <div class="form-group">
+                <label for="value-2">Value2:</label>
+                <input type="text" class="form-control" id="value2">
+            </div>
+            <br>
+            <div class="form-group">
+                 <label for="operator">Operator:</label>
+                <select id="operator" class="form-control">
+                    <option value="add">Add</option>
+                    <option value="min">Substract</option>
+                    <option value="div">Divide</option>
+                    <option value="mul">Multiply</option>
+                </select>
+                <br>
+            </div>
+      
+            <div>
+                <label for="result">Result:</label>
+                <div id="result"></div>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="calc()">Calculate</button>
+        </form>
+
+     
+    </div>
+     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
